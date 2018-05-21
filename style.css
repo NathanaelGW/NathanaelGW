@@ -252,73 +252,7 @@ border: none;
 
 }
     
-@media only screen and (max-width: 800px) {
-   
-    #button {
-        font-size: 1em;
-    }
-     section {
-        width: 76%;
-    }
-    .textcontainer {
-        width: 95%;
-    }
-    
-    #info {
-        font-size: .6em;
-    }
-}
 
-@media only screen and (max-width: 700px) {
-    
-    img.medium {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-            img.small {
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        float:none;
-    }
-        .textcontainer {
-        width: 93%;
-    }
-} 
-
-@media only screen and (max-width: 670px) {
-    
-    section {
-        width: 74%;
-    }
-    
-    h1 {
-        font-size: 5em;
-    }
-    th {
-        font-size: 1em;
-    }
-        td {
-        font-size: 1em;
-    }
-    
-}
-
-@media only screen and (max-width: 650px) {
-    
-    section {
-        width: 73%;
-    }
-        h3 {
-        font-size: 2em;
-    }
-    caption {
-        font-size: 1em;
-    }
-}
 
     /*All Elements Move on top of one another */
     
