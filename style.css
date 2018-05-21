@@ -224,7 +224,7 @@ border: none;
 }
     /*All Elements Move on top of one another */
     
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 2000px) {
     
 nav {
     position: static;
