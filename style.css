@@ -244,6 +244,23 @@ width: 100%;
 }
 
 /* Screen Sizes */
+
+@media only screen and (max-width: 1280px) {
+    
+    section {
+        width: 820px;
+    }
+    
+    .container2, .container3 {
+        width: 48%;
+    }
+    
+    .container3 {
+        float: right;
+    }
+    
+}
+
 /*Phones*/
 
 @media only screen and (max-width: 1100px) {
