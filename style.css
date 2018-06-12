@@ -259,6 +259,13 @@ width: 100%;
         float: right;
     }
     
+    img.small {
+        width: 90%;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
 }
 
 /*Phones*/
