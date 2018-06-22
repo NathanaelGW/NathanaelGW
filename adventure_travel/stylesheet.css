@@ -1,0 +1,547 @@
+/* Adventure Travel CSS stylesheet */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/*HTML tags*/
+
+html {
+     background-color: #2b78e4;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+p#caption {
+    background-color: #fff0cf;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+/*Lists*/
+
+ul {
+    line-height: 23px;
+   list-style-position: inside;
+
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #6b3515;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 100%;
+    color: white;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;  
+}
+
+footer a:visited {
+    color: white; 
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:hover {
+    color: indianred;
+}
+
+/* Links */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: indianred;
+}
+
+/*Navigation Menu*/
+
+nav {
+    text-align: center;
+    background-color: #6b3515;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropbtn {
+    background-color: #085394;
+    color: white;
+    padding: 5px 20px;
+    margin: 0px 5px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+    border-top: white 2px solid;
+    border-left: white 2px solid;
+    transition: background-color 1s;
+    border-radius: 7px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #085394;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+    
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 1s;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: #2b78e4
+        
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2b78e4;
+        border-right: white 2px solid;
+    border-bottom: white 2px solid;
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    
+}
+
+/* Submit Button */
+
+.btn {
+  background: #085394;
+  background-image: linear-gradient(to bottom, #085394, #052845);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2b78e4;
+  background-image: -webkit-linear-gradient(top, #2b78e4, #1a498a);
+  background-image: -moz-linear-gradient(top, #2b78e4, #1a498a);
+  background-image: -ms-linear-gradient(top, #2b78e4, #1a498a);
+  background-image: -o-linear-gradient(top, #2b78e4, #1a498a);
+  background-image: linear-gradient(to bottom, #2b78e4, #1a498a);
+  text-decoration: none;
+cursor: pointer;
+}
+
+/*Custom Classes*/
+
+.whiteheading {
+    color: white;
+    text-shadow: 3px 3px black;
+    background-color: #6b3515;
+}
+
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+/* Custom IDs */
+
+#wrapper {
+    width: 1100px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color:#7eb1fe;
+}
+
+/*Forms*/
+
+#tourform {
+}
+
+#contactform {
+    text-align: center;
+    line-height: 32px;
+}
+#firstname, #lastname, #email, #address {
+    font-size: 1em;
+    text-align: center;
+}
+
+#address {
+    text-align: left;
+}
+
+#search {
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+#searchbutton {
+    position: absolute;
+    width: 40px;
+    margin-left: 5px;
+    border: 1px solid black;
+    -webkit-transition: -webkit-transform 1s; /* Safari */
+    transition: transform 1s;
+}
+
+#searchbutton:hover {
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+
+/*Main image container*/
+
+#container1 {
+    background-color: #085394;
+    margin: 10px 0px;
+    padding: 30px;
+}
+
+#subcontainer1 {
+    position: relative;
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+#subcontainer1text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 2px black;
+}
+
+#subcontainer1caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+     color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 2px black;
+    font-size: 2.7em;
+}
+
+/* Main content containers */
+
+#container2 {
+    margin: 10px 0px;
+}
+
+#subcontainer2 {
+    display: inline-block;
+    background-color: #085394;
+    padding: 15px;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+#subcontainer2img {
+    position: relative;
+    color: white;
+    width: 250px;
+    -webkit-transition: opacity 1s;/* Safari */
+    transition: opacity 1s;
+    text-align: center;
+    margin:15px;
+    
+}
+
+#subcontainer2img a{
+color: white;
+}
+
+#subcontainer2img:hover {
+    opacity: .5;
+}
+
+#subcontainer2text {
+    background-color: #fff0cf;
+    height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+
+#textcontainer {
+    background-color: #fff0cf;
+    height: 570px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#subcontainer2big {
+    display: inline-block;
+    background-color: #085394;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#textcontainerbig {
+    background-color: #fff0cf;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+#title {
+    position: absolute;
+    font-size: 1.8em;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 2px black;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 125px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#subcontainer2full {
+    background-color: #085394;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#subcontainer2imgfull {
+    position: relative;
+    display: inline;
+    color: white;
+    width: 250px;
+    -webkit-transition: opacity 1s;/* Safari */
+    transition: opacity 1s;
+    margin:15px;
+}
+
+#subcontainer2imgfull:hover {
+    opacity: 0.5;
+}
+
+#imgtitle {
+    position: absolute;
+    font-size: 1.8em;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 2px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -100px;
+    color: white;
+}
+
+#copyright {
+    font-size: .8em;
+    font-family: "Times New Roman", serif;
+}
+/*Slideshow*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -120px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text for slideshow */
+
+.text {
+    color: white;
+    font-size: 5em;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 400px;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+        text-shadow: 3px 2px black;
+}
+.caption {
+  color: black;
+  font-size: 1.1em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 430px;
+  width: 100%;
+  text-align: center;
+    background-color: #fff0cf;
+    
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+    text-shadow: 1.5px 1.5px black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    box-shadow: 2px 2px black;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Different Screen Sizes */
+
+@media only screen and (max-width: 600px) {
+
+}

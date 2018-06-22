@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Contact</title>
+    <meta name="description" content="Adventure Travel provides detailed and concise information about outdoor adventures around the world. Plan your next trip at Adventure Travel."/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    
+    <body>
+        
+        <header>
+            <a href="index.html"><img id=logo src="images/atravel_logo2.png" alt="travel logo"></a>
+        </header>
+          
+         <!-- Navigation Menu-->
+        
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                    <a href="#">Our Company</a>
+                    <a href="#">Mission</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                    <a href="dest.html"><button class="dropbtn">Destinations</button></a>
+                <div class="dropdown-content">
+                    <a href="europe.html">Europe</a>
+                    <a href="#">Asia</a>
+                    <a href="#">Africa</a>
+                    <a href="#">Australia</a>
+                    <a href="#">North America</a>
+                    <a href="#">South America</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">Tours</button>
+                <div class="dropdown-content">
+                    <a href="#">Popular Tours</a>
+                    <a href="tour.html">Choose Your Adventure</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Stories</button>
+                <div class="dropdown-content">
+                    <a href="#">Dante's Grotto</a>
+                    <a href="#">The Krampus</a>
+                    <a href="#">Path of Cuchulainn</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="contact.html"><button class="dropbtn">Contact</button></a>
+            </div>
+            <input type="text" placeholder="Search.." id="search"><a href="#"><img id="searchbutton" src="images/searchbutton.jpg"></a>
+        </nav>
+        
+        <!-- Main Banner Content -->
+        
+        <div id="wrapper">     
+            <section>
+                <article id="container1">
+                    <div id="subcontainer1">
+                        <img src="images/choose_adventure.jpg" alt="Choose Your Adventure">
+                        <h1 id="subcontainer1text">Choose Your Adventure</h1>
+                    </div>
+                </article>
+                
+                 <!-- Main Container -->
+                
+                <article id="container2">
+                    <div id="subcontainer2big">
+                        <div id="textcontainerbig">
+                            <div id="tourform">
+                                
+                                
+                                <form method="post" enctype="text/plain" action="mailto:weirwakely@hotmail.com">
+                                    <h4>Find the perfect adventure tour for you!</h4>
+                                    <br><br>
+                                    <h3>Favourite Outdoor Activities</h3>
+                                    <br>
+                                    Please check off all boxes that apply:
+                                    <br><br>
+                                    <input type="checkbox" name="activities" value="sailing">Sailing
+                                    <input type="checkbox" name="activities" value="spelunking">Spelunking
+                                    <input type="checkbox" name="activities" value="hiking">Hiking
+                                    <input type="checkbox" name="activities" value="climbing">Climbing
+                                    <input type="checkbox" name="activities" value="swimming">Swimming
+                                    <input type="checkbox" name="activities" value="biking">Biking
+                                    <input type="checkbox" name="activities" value="camping">Camping
+                                    <br><br>
+                                    <h3>How much physical activity do you get per week?</h3>
+                                    <br><select name="physical_activity" id="physical_activity">
+                                    <option value="choose">Select hours of physical activity</option>
+                                    <option value="hawaii">Less than an hour</option>
+                                    <option value="tahiti">1-2 hours</option>
+                                    <option value="carribean">3-4 hours</option>
+                                    <option value="bali">5-6 hours</option>
+                                    <option value="bora_bora">7 hours or more</option></select>
+                                    <br><br>
+                                    <h3>What's Your Budget?</h3>
+                                    <br>
+                                    <input type="radio" name="budget" value="moderate"> Moderate (up to $500)<br>
+                                    <input type="radio" name="budget" value="premium"> Premium ($500 to $1000)<br>
+                                    <input type="radio" name="budget" value="deluxe"> Deluxe ($1000 to $1500)<br>
+                                    <input type="radio" name="budget" value="luxury"> Luxury ($1500 and up)<br>
+                                    <br>
+                                    <h3>Where do you want to go?</h3>
+                                    <br>
+                                    <select name="destinations" id="destinations" size="23" multiple>
+                                    <option value="choose">Please select your destination(s)</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="med">-Mediterranean</option>
+                                    <option value="scan">-Scandinavia</option>
+                                    <option value="africa">Africa</option>
+                                    <option value="south">--South Africa</option>
+                                    <option value="mad">--Madagascar</option>
+                                    <option value="australia">Australia</option>
+                                    <option value="red">--The Red Center</option>
+                                    <option value="nz">--New Zealand</option>
+                                    <option value="asia">Asia</option>
+                                    <option value="indo">--Indonesia</option>
+                                    <option value="india">--India</option>
+                                    <option value="him">--Himalayas</option>
+                                    <option value="northamerica">North America</option>
+                                    <option value="can">--Canada</option>
+                                    <option value="usa">--USA</option>
+                                    <option value="mex">--Mexico</option>
+                                    <option value="southamerica">South America</option>
+                                    <option value="bra">--Brazil</option>
+                                    <option value="peru">--Peru</option>
+                                    <option value="arg">--Argentina</option>
+                                    <option value="other">Other</option>
+                                    </select>
+                                    <br><br>
+                                    <h3>When do you want to go?</h3>
+                                    <br>
+                                    From: <input type="date" name="from" id="from">
+                                    Until: <input type="date" name="until" id="until">
+                                    <br><br>
+                                    <h3>How many people will be travelling?</h3>
+                                    <br>
+                                    Adults: <input type="number" value="1" name="adultnum" id="adultnum" min="1" max="30"> Children: <input type="number" value="0" name="childnum" id="childnum" min="1" max="30"> 
+                                    <br><br>
+                                    <h3>Personal Information</h3>
+                                    <br>
+                                    First Name:<br>  
+                                    <input type="text" name="firstname" id="firstname" size="40" maxlength="39">
+                                    <br><br>
+                                    Last Name:<br>
+                                    <input type="text" name="lastname" id="lastname" size="40" maxlength="39">
+                                    <br><br>
+                                    Phone Number:
+                                    +<input type="text" name="country" id="countrycode" size="3" maxlength="3"> - (<input type="text" name="areacode" id="areacode" size="3" maxlength="3">) -
+                                    <input type="ntext" name="phone" id="phone" size="8" maxlength="7">
+                                    <br><br>
+                                    Email:<br>
+                                    <input type="text" name="email" id="email" size="40" maxlength="39">
+                                    <br><br>
+                                    Comments:<br>
+                                    <textarea name="address" id="address" rows="8" cols="70"></textarea>
+                                    <br><br>
+                                    <h3>Please submit your form and our agents will be with you shortly.</h3>
+                                    <br>
+                                    <a href="mailto:weirwakely@hotmail.com"><button type="button" name="submit" value="submit" class="btn">Submit</button></a>
+                                    
+                                
+                                
+                                    
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div> 
+                                      
+                </article>
+            </section>
+        </div>
+        
+        <!-- Footer -->
+        
+        <footer>
+            <ul>
+                |<li><a href="index.html"> Home </a></li>
+                |<li><a href="#"> About </a></li>
+                |<li><a href="dest.html"> Destinations </a></li>
+                |<li><a href="#"> Tours </a></li>
+                |<li><a href="#"> Stories </a></li>
+                |<li><a href="contact.html"> Contact </a></li>|
+            </ul>
+            
+            <!-- Copyright -->
+            
+            <br><div id="copyright">Copyright &copy; 2018 Adventure Travel.<br>All rights reserved.<br>No part of this site may be reproduced without our written permission.</div>
+        </footer>
+    
+    </body>
+    
+</html>
+    
