@@ -1,0 +1,422 @@
+/* Adventure Travel CSS stylesheet */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/*HTML tags*/
+
+html {
+     background-color: #2b78e4;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+p#caption {
+    background-color: #fff0cf;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Lists*/
+
+ul {
+    line-height: 23px;
+   list-style-position: inside;
+
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+header {
+}
+
+/* Footer */
+
+footer {
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #6b3515;
+    color: white;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul a li {
+    border-top: 3px solid white;
+    font-size: 1.3em;
+    padding: 8px;
+    -webkit-transition: background-color 1.5s;/* Safari */
+    transition: background-color 1.5s;
+}
+
+footer ul a li#bottom {
+     border-bottom: 3px solid white;
+}
+
+footer ul a li:hover {
+    background-color: saddlebrown;
+}
+
+footer a:visited {
+    color: white; 
+}
+
+footer a:link {
+    color: white;
+}
+
+/* Links */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: indianred;
+}
+
+/*Navigation Menu*/
+
+/*Custom Classes*/
+
+.whiteheading {
+    color: white;
+    text-shadow: 3px 3px black;
+    background-color: #6b3515;
+}
+
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Custom IDs */
+
+#wrapper {
+    width: 480px;
+    padding: 0px 15px;
+    margin: auto;
+    background-color:#7eb1fe;
+}
+
+/*Main image container*/
+
+#container1 {
+    background-color: #085394;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* Main content containers */
+
+#subcontainer2 {
+    background-color: #085394;
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#subcontainer2img {
+    position: relative;
+    width: 250px;
+    color: white;
+    -webkit-transition: opacity 1s;/* Safari */
+    transition: opacity 1s;
+    text-align: center;
+    margin: auto;    
+}
+
+#subcontainer2img img {
+    border-radius: 30px;
+}
+
+#subcontainer2img a{
+color: white;
+}
+
+#subcontainer2img:hover {
+    opacity: .5;
+}
+
+/*Subcontainer2img Title*/
+
+#title {
+    position: absolute;
+    font-size: 1.8em;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 2px black;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#subcontainer2text {
+    text-align: center;
+    background-color: #fff0cf;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+     font-size: 1.2em;
+}
+
+#textcontainer {
+    background-color: #fff0cf;
+    height: 570px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#subcontainer2big {
+    display: inline-block;
+    background-color: #085394;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#textcontainerbig {
+    background-color: #fff0cf;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+#subcontainer2full {
+    background-color: #085394;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#subcontainer2imgfull {
+    position: relative;
+    display: inline;
+    color: white;
+    width: 250px;
+    -webkit-transition: opacity 1s;/* Safari */
+    transition: opacity 1s;
+    margin:15px;
+}
+
+#subcontainer2imgfull:hover {
+    opacity: 0.5;
+}
+
+#imgtitle {
+    position: absolute;
+    font-size: 1.8em;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 2px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -100px;
+    color: white;
+}
+
+#copyright {
+    font-size: 1.1em;
+    font-family: "Times New Roman", serif;
+}
+
+#logo {
+    width: 300px;
+    margin-right: 20px
+}
+/*Slideshow*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 480px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: ;
+  width: auto;
+  margin-top: -120px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text for slideshow */
+
+.text {
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+        text-shadow: 3px 2px black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+    text-shadow: 1.5px 1.5px black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: skyblue;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    box-shadow: 2px 2px black;
+}
+
+.active, .dot:hover {
+  background-color: royalblue;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* Search Button Icon*/
+
+.search-wrapper {
+    display: inline-block;
+	position: relative;
+	width: 49px;
+    height: 49px;
+    cursor: pointer;
+    background-color: #6b3515;
+    padding: 5px 7.7px;
+    border-radius: 100%;
+    top: 21px;
+    transition: 1s;
+}
+
+.search-wrapper:hover {
+    background-color: saddlebrown;
+}
+
+.circle {
+		width: 35px;
+		height: 35px;
+		border: 5px solid white;
+		border-radius: 100px;
+	}
+
+.rectangle {
+		position: absolute;
+		left: 30px;
+		width: 30px;
+		transform: rotate(45deg);
+		border: 3.5px solid white;
+		border-top-right-radius: 12px;
+		border-bottom-right-radius: 12px;
+    transition: 1s;
+	}
+
+.flip .rectangle {
+        -webkit-transform: rotate(45deg) translate(-9px, 6px);
+    transform: rotate(0deg) translate(12px, -19px);
+}
+
+/*Hamburger Icon*/
+
+.hamburger {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #6b3515;
+    padding: 5px 7.7px;
+    border-radius: 100%;
+    top: 21px;
+    transition: 1s;
+}
+
+.hamburger:hover {
+    background-color: saddlebrown;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 1s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
