@@ -42,7 +42,7 @@ footer {
     text-align: center;
     background-color: #6b3515;
     color: white;
-    width: 390px;
+    width: 360px;
     margin: auto;
 }
 
@@ -108,7 +108,7 @@ a:hover {
 /* Custom IDs */
 
 #wrapper {
-    width: 360px;
+    width: 330px;
     padding: 0px 15px 5px 15px;
     margin: auto;
     background-color:#7eb1fe;
@@ -325,8 +325,7 @@ color: white;
 .search-wrapper {
     display: inline-block;
 	position: relative;
-	width: 49px;
-    height: 49px;
+	
     cursor: pointer;
     background-color: #6b3515;
     padding: 7px;
@@ -340,8 +339,8 @@ color: white;
 }
 
 .circle {
-		width: 35px;
-		height: 35px;
+		width: 25.5px;
+		height: 25.5px;
 		border: 5px solid white;
 		border-radius: 100px;
 	}
