@@ -1,0 +1,32 @@
+/* Custom CSS for Adventure Travel */
+
+/* Custom CSS Tags*/
+
+body {
+}
+
+header {
+    background-image:url(../images/background.jpg); 
+    text-align: center;
+}
+
+nav {
+    background-color: #6b3515;
+    font-size: 2vw;
+}
+ul {
+    margin: auto;
+}
+
+footer {
+    background-color: #6b3515;
+    color: black;
+}
+
+/* Custom CSS Classes*/
+
+/* Custom CSS IDs*/
+
+#logo {
+    max-width: 1200px;
+}
