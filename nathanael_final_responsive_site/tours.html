@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- Responsive Website -->
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Adventure Travel provides detailed and concise information about outdoor adventures around the world. Plan your next trip at Adventure Travel.">
+      <link rel="shortcut icon" href="favicon.ico"/>
+
+    <title>Adventure Travel - Tours</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for slideshow -->
+     <link href="css/half-slider.css" rel="stylesheet">
+      
+          <!-- Custom styles for 2 column -->
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+      
+      <!-- My custom stylesheet -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+      
+      <!--Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+      <header> 
+          <!--Logo-->
+                <a href="index.html"><img id="logo" class="img-fluid" src="images/logo.svg" alt="Adventure Travel"></a>
+      </header>
+
+<!--Navigation-->
+      
+<nav class="navbar navbar-expand-lg navbar-dark blue-grey lighten-5 mb-4">
+
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Links -->
+       <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    
+                    <!--Dropdown-->
+                    <a class="dropdown-item" href="tolmin.html">Europe</a>
+                    <a class="dropdown-item" href="tolmin.html">Asia</a>
+                    <a class="dropdown-item" href="tolmin.html">Australia</a>
+                    <a class="dropdown-item" href="tolmin.html">Africa</a>
+                    <a class="dropdown-item" href="tolmin.html">North America</a>
+                    <a class="dropdown-item" href="tolmin.html">South America</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="tours.html">Tours<span class="sr-only">(current)</span></a>
+            </li>
+  <li class="nav-item">
+                <a class="nav-link" href="stories.html">Stories</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <!--end Links-->
+        <!-- Search form -->
+        <form class="form-inline">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+    <!-- end Collapsible content -->
+
+</nav>
+      <!--end Navigation-->
+      
+      
+      <section class="container">
+                    
+                        <img class="full" src="images/choose_adventure.jpg" alt="Choose Your Adventure">
+                        <h1 id="subcontainer1text">Choose Your Adventure</h1>
+                
+                 <!--Form-->
+          <article class="card-body">
+                
+                                <form method="post" enctype="text/plain" action="mailto:weirwakely@hotmail.com">
+                                    <h3>Find the perfect adventure tour for you!</h3>
+                                    <h5>Favourite Outdoor Activities</h5>
+                                    Please check off all boxes that apply:
+                                    <br><br>
+                                    <input type="checkbox" name="activities" value="sailing">Sailing
+                                    <input type="checkbox" name="activities" value="spelunking">Spelunking
+                                    <input type="checkbox" name="activities" value="hiking">Hiking
+                                    <input type="checkbox" name="activities" value="climbing">Climbing
+                                    <input type="checkbox" name="activities" value="swimming">Swimming
+                                    <input type="checkbox" name="activities" value="biking">Biking
+                                    <input type="checkbox" name="activities" value="camping">Camping
+                                    <br><br>
+                                    <h5>How much physical activity do you get per week?</h5>
+                                    <br><select name="physical_activity" id="physical_activity">
+                                    <option value="choose">Select hours of physical activity</option>
+                                    <option value="hawaii">Less than an hour</option>
+                                    <option value="tahiti">1-2 hours</option>
+                                    <option value="carribean">3-4 hours</option>
+                                    <option value="bali">5-6 hours</option>
+                                    <option value="bora_bora">7 hours or more</option></select>
+                                    <br><br>
+                                    <h5>What's Your Budget?</h5>
+                                    <br>
+                                    <input type="radio" name="budget" value="moderate"> Moderate (up to $500)<br>
+                                    <input type="radio" name="budget" value="premium"> Premium ($500 to $1000)<br>
+                                    <input type="radio" name="budget" value="deluxe"> Deluxe ($1000 to $1500)<br>
+                                    <input type="radio" name="budget" value="luxury"> Luxury ($1500 and up)<br>
+                                    <br>
+                                    <h5>Where do you want to go?</h5>
+                                    <br>
+                                    <select name="destinations" id="destinations" size="23" multiple>
+                                    <option value="choose">Please select your destination(s)</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="med">-Mediterranean</option>
+                                    <option value="scan">-Scandinavia</option>
+                                    <option value="africa">Africa</option>
+                                    <option value="south">--South Africa</option>
+                                    <option value="mad">--Madagascar</option>
+                                    <option value="australia">Australia</option>
+                                    <option value="red">--The Red Center</option>
+                                    <option value="nz">--New Zealand</option>
+                                    <option value="asia">Asia</option>
+                                    <option value="indo">--Indonesia</option>
+                                    <option value="india">--India</option>
+                                    <option value="him">--Himalayas</option>
+                                    <option value="northamerica">North America</option>
+                                    <option value="can">--Canada</option>
+                                    <option value="usa">--USA</option>
+                                    <option value="mex">--Mexico</option>
+                                    <option value="southamerica">South America</option>
+                                    <option value="bra">--Brazil</option>
+                                    <option value="peru">--Peru</option>
+                                    <option value="arg">--Argentina</option>
+                                    <option value="other">Other</option>
+                                    </select>
+                                    <br><br>
+                                    <h5>When do you want to go?</h5>
+                                    <br>
+                                    From: <input type="date" name="from" id="from"><br>
+                                    Until: <input type="date" name="until" id="until">
+                                    <br><br>
+                                    <h5>How many people will be travelling?</h5>
+                                    <br>
+                                    Adults: <input type="number" value="1" name="adultnum" id="adultnum" min="1" max="30"> Children: <input type="number" value="0" name="childnum" id="childnum" min="1" max="30"> 
+                                    <br><br>
+                                    <h5>Personal Information</h5>
+                                    <br>
+                                    First Name:<br>  
+                                    <input type="text" name="firstname" id="firstname" size="40" maxlength="39">
+                                    <br><br>
+                                    Last Name:<br>
+                                    <input type="text" name="lastname" id="lastname" size="40" maxlength="39">
+                                    <br><br>
+                                    Phone Number:
+                                    +<input type="text" name="country" id="countrycode" size="3" maxlength="3"> - (<input type="text" name="areacode" id="areacode" size="3" maxlength="3">) -
+                                    <input type="ntext" name="phone" id="phone" size="8" maxlength="7">
+                                    <br><br>
+                                    Email:<br>
+                                    <input type="text" name="email" id="email" size="40" maxlength="39">
+                                    <br><br>
+                                    Comments:<br>
+                                    <textarea name="address" id="address" rows="8" cols="45"></textarea>
+                                    <br><br>
+                                    <h5>Please submit your form and our agents will be with you shortly.</h5>
+                                    <br>
+                                    <a href="mailto:weirwakely@hotmail.com"><button type="button" name="submit" value="submit" class="btn btn-primary">Submit</button></a>
+
+                                </form>           
+                </article>
+            </section>
+          <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+        <a href="#top">Back To Top &#8679;</a>
+    <!--Site Map-->
+        <div class="sitemap">
+          <a class="btn btn-primary" href="index.html" role="button">Home</a>
+             <a class="btn btn-primary" href="tolmin.html" role="button">Destinations</a>
+             <a class="btn btn-primary" href="stories.html" role="button">Stories</a>
+             <a class="btn btn-primary" href="tours.html" role="button">Tours</a>
+             <a class="btn btn-primary" href="contact.html" role="button">Contact</a>
+            </div>
+    <!--Social Icons-->
+        <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    <!--Copyright-->
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Adventure Travel.<br>All rights reserved.<br>No part of this site may be reproduced without our written permission.</p>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
